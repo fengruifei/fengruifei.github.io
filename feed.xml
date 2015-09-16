@@ -6,9 +6,357 @@
 </description>
     <link>http://fengruifei.github.io/</link>
     <atom:link href="http://fengruifei.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Sep 2015 17:54:58 +0800</pubDate>
-    <lastBuildDate>Tue, 15 Sep 2015 17:54:58 +0800</lastBuildDate>
+    <pubDate>Wed, 16 Sep 2015 11:50:39 +0800</pubDate>
+    <lastBuildDate>Wed, 16 Sep 2015 11:50:39 +0800</lastBuildDate>
     <generator>Jekyll v3.0.0.pre.beta8</generator>
+    
+      <item>
+        <title>Emacs学习笔记</title>
+        <description>&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;todo PROJECT&quot;&gt;PROJECT&lt;/span&gt; EMACS学习笔记&amp;#xa0;&amp;#xa0;&amp;#xa0;&lt;span class=&quot;tag&quot;&gt;&lt;span class=&quot;EMACS&quot;&gt;EMACS&lt;/span&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;p&gt;
+emacs有用途，目前看来有两点，第一是用于编程，第二是用于写文档。
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1-1&quot;&gt;编程&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1-1&quot;&gt;
+&lt;p&gt;
+emacs是为了程序员设计的，所以用于编程方便多多。
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1-2&quot;&gt;写文档&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1-2&quot;&gt;
+&lt;p&gt;
+这一点的确有点让人诧异，用于写文档主要体现在org-mode方面。用org-mode写文档，不会让人沉迷于字体、颜色等等细节中。而把精力都放在文字本身。用org-mode会让文章有着比较好的层次结构。就像这篇笔记就是用orgmode编写的。
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-2-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-2-1&quot;&gt;writing&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-2-1&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-1-2-1-1&quot; class=&quot;outline-5&quot;&gt;
+&lt;h5 id=&quot;sec-1-2-1-1&quot;&gt;树状结构，&lt;/h5&gt;
+&lt;div class=&quot;outline-text-5&quot; id=&quot;text-1-2-1-1&quot;&gt;
+&lt;p&gt;
+而这一切都不用离开键盘，不用鼠标点来点去的好繁琐。
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-2-1-2&quot; class=&quot;outline-5&quot;&gt;
+&lt;h5 id=&quot;sec-1-2-1-2&quot;&gt;格式化&lt;/h5&gt;
+&lt;div class=&quot;outline-text-5&quot; id=&quot;text-1-2-1-2&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-1-2-1-2-1&quot; class=&quot;outline-6&quot;&gt;
+&lt;h6 id=&quot;sec-1-2-1-2-1&quot;&gt;表格&lt;/h6&gt;
+&lt;div class=&quot;outline-text-6&quot; id=&quot;text-1-2-1-2-1&quot;&gt;
+&lt;table border=&quot;2&quot; cellspacing=&quot;0&quot; cellpadding=&quot;6&quot; rules=&quot;groups&quot; frame=&quot;hsides&quot;&gt;
+
+
+&lt;colgroup&gt;
+&lt;col  class=&quot;left&quot; /&gt;
+
+&lt;col  class=&quot;left&quot; /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th scope=&quot;col&quot; class=&quot;left&quot;&gt;t1&lt;/th&gt;
+&lt;th scope=&quot;col&quot; class=&quot;left&quot;&gt;t2&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;left&quot;&gt;abdsfdsfdsfc&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;abc&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-2-1-2-2&quot; class=&quot;outline-6&quot;&gt;
+&lt;h6 id=&quot;sec-1-2-1-2-2&quot;&gt;字体&lt;/h6&gt;
+&lt;div class=&quot;outline-text-6&quot; id=&quot;text-1-2-1-2-2&quot;&gt;
+&lt;p&gt;
+&lt;b&gt;百度&lt;/b&gt; &lt;i&gt;abc&lt;/i&gt; &lt;span class=&quot;underline&quot;&gt;abc&lt;/span&gt; &lt;del&gt;abc test&lt;/del&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-2-1-2-3&quot; class=&quot;outline-6&quot;&gt;
+&lt;h6 id=&quot;sec-1-2-1-2-3&quot;&gt;段落&lt;/h6&gt;
+&lt;div class=&quot;outline-text-6&quot; id=&quot;text-1-2-1-2-3&quot;&gt;
+&lt;p&gt;
+*
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-2-1-3&quot; class=&quot;outline-5&quot;&gt;
+&lt;h5 id=&quot;sec-1-2-1-3&quot;&gt;&lt;span class=&quot;done DONE&quot;&gt;DONE&lt;/span&gt; publish&lt;/h5&gt;
+&lt;div class=&quot;outline-text-5&quot; id=&quot;text-1-2-1-3&quot;&gt;
+&lt;p&gt;
+就是把org文件导出为html文件。我们可以通过目录、通配符等定制项目，已经项目的输出属性。比如包含哪些tag要输出。
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-2-1-3-1&quot; class=&quot;outline-6&quot;&gt;
+&lt;h6 id=&quot;sec-1-2-1-3-1&quot;&gt;&lt;span class=&quot;done DONE&quot;&gt;DONE&lt;/span&gt; CONFIGURATION&lt;/h6&gt;
+&lt;div class=&quot;outline-text-6&quot; id=&quot;text-1-2-1-3-1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;定制项目。例如：
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&quot;verse&quot;&gt;
+(&quot;project-name&quot; :property value :property value &amp;#x2026;)&lt;br  /&gt;
+i.e., a well-formed property list with alternating keys and values&lt;br  /&gt;
+or&lt;br  /&gt;
+(&quot;project-name&quot; :components (&quot;project-name&quot; &quot;project-name&quot; &amp;#x2026;))&lt;br  /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-2-2&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-2-2&quot;&gt;blogging&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-2-2&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-1-2-2-1&quot; class=&quot;outline-5&quot;&gt;
+&lt;h5 id=&quot;sec-1-2-2-1&quot;&gt;Why&lt;/h5&gt;
+&lt;div class=&quot;outline-text-5&quot; id=&quot;text-1-2-2-1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;为了让知识沉淀。泛泛的阅读不会形成知识，只会信息流不断地穿越，让人觉得越来越累。要让知识真正发挥作用，一方面是记忆，一方面是在合适的场合出现。需要有一个回忆整理的过程，而写博客就像是在跟其他人对话的过程，把学到的知识讲给其他人听，就是很好的加深自身理解的机会。
+&lt;/li&gt;
+&lt;li&gt;增加他人对于自己的认识。写博客可以让更多的人认识自己，知道自己的想法。当然，直接的交流对于确定的对象的影响会非常好，但是我们并不是总有这样的机会，建立自己的博客就像在网络空间中建立了一个自己，这个自己日夜无休的帮助自己的去表达，另外一方面他也是一个生命，会自我的生长。并且会会逐渐成为本我的一部分。
+&lt;/li&gt;
+&lt;li&gt;写博客可以增加一个人的表达能力，表达能力一方面是内容的增长，另一方面是形式的进步。写博客对于文笔是很好的锻炼，同时我想对于口头表达也会有作用。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-2-2-1-1&quot; class=&quot;outline-6&quot;&gt;
+&lt;h6 id=&quot;sec-1-2-2-1-1&quot;&gt;为什么要用emacs&lt;/h6&gt;
+&lt;div class=&quot;outline-text-6&quot; id=&quot;text-1-2-2-1-1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;因为emacs本身很有意思的编辑器，而且还有org-mode这样的大杀器，很适合用于写文章，写的很爽
+&lt;/li&gt;
+&lt;li&gt;因为emacs的社群很有意思。都是一帮极客。
+&lt;/li&gt;
+&lt;li&gt;emacs和git、github都有关系，顺便就都学习啦！
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-2-2-1-2&quot; class=&quot;outline-6&quot;&gt;
+&lt;h6 id=&quot;sec-1-2-2-1-2&quot;&gt;github pages？&lt;/h6&gt;
+&lt;div class=&quot;outline-text-6&quot; id=&quot;text-1-2-2-1-2&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;比较潮，顺便就把github，git也学习下。
+&lt;/li&gt;
+&lt;li&gt;github pages本意是为了给托管的项目定制主页使用，由于github本身具有高速、稳定、免费的特点，所以大家可以用它来个性化定制化自己的博客。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-2-2-2&quot; class=&quot;outline-5&quot;&gt;
+&lt;h5 id=&quot;sec-1-2-2-2&quot;&gt;How&lt;/h5&gt;
+&lt;div class=&quot;outline-text-5&quot; id=&quot;text-1-2-2-2&quot;&gt;
+&lt;p&gt;
+emacs orgmode + &lt;i&gt;jekyll&lt;/i&gt;
+&lt;/p&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;首先用emacs orgmode编辑文件
+&lt;/li&gt;
+&lt;li&gt;然后将org文件导出为html格式，编辑时文件有几个要注意的格式问题
+&lt;/li&gt;
+&lt;li&gt;然后在使用jekyllrb吧html转换为github pages的格式
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;为了blog好看，我们基于模板来开发博客，具体方法就是在jekyllthemes上下载模板，然后直接基于模板来生成博客。模板已经包含了所有jekyll的目录，等于一个空博客。只需要把文章生成到&lt;sub&gt;posts下面就可以用jekyll来生成博客了。&lt;/sub&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;然后把html push到github上面
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-2-2-2-1&quot; class=&quot;outline-6&quot;&gt;
+&lt;h6 id=&quot;sec-1-2-2-2-1&quot;&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; &lt;a href=&quot;http://jekyllrb.com&quot;&gt;jekyllrb&lt;/a&gt;&lt;/h6&gt;
+&lt;div class=&quot;outline-text-6&quot; id=&quot;text-1-2-2-2-1&quot;&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.jianshu.com/p/12b0099d4625&quot;&gt;用github和jekyll搭建博客&lt;/a&gt;
+支持的脚本包括……等等。在转换当中，jekyll支持使用模板来辅助转换的过程，这大大简化了对于html文件的美化工作。
+模板的编写较为复杂，可是已经有大量的现成模板供大家直接使用。
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-2-2-2-2&quot; class=&quot;outline-6&quot;&gt;
+&lt;h6 id=&quot;sec-1-2-2-2-2&quot;&gt;&lt;span class=&quot;todo NEXT&quot;&gt;NEXT&lt;/span&gt; 一个例子, 用emacs orgmode+jekyll。&lt;/h6&gt;
+&lt;div class=&quot;outline-text-6&quot; id=&quot;text-1-2-2-2-2&quot;&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.gorgnegre.com/linux/using-emacs-orgmode-to-blog-with-jekyll.html&quot;&gt;http://www.gorgnegre.com/linux/using-emacs-orgmode-to-blog-with-jekyll.html&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-2-2-2-2-1&quot; class=&quot;outline-7&quot;&gt;
+&lt;h7 id=&quot;sec-1-2-2-2-2-1&quot;&gt;思路如下&lt;/h7&gt;
+&lt;div class=&quot;outline-text-7&quot; id=&quot;text-1-2-2-2-2-1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;在emacs org中编写文章。在property中设置title和publish&lt;sub&gt;date&lt;/sub&gt;
+&lt;/li&gt;
+&lt;li&gt;通过org-file-from-subtree把需要publish的节点放到org/&lt;sub&gt;posts中，根据property中的内容命名导出文件。&lt;/sub&gt;
+&lt;/li&gt;
+&lt;li&gt;用org-publish-project把所有&lt;sub&gt;posts中的文件输出到blog&lt;/sub&gt;/&lt;sub&gt;posts中，生成html文件&lt;/sub&gt;
+&lt;/li&gt;
+&lt;li&gt;jekyll会自动编译html文件放到&lt;sub&gt;site中&lt;/sub&gt;
+&lt;/li&gt;
+&lt;li&gt;git相关操作。commit,push把文章推送到github中
+&lt;/li&gt;
+&lt;li&gt;定义域名
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-2-2-2-2-2&quot; class=&quot;outline-7&quot;&gt;
+&lt;h7 id=&quot;sec-1-2-2-2-2-2&quot;&gt;步骤如下。&lt;/h7&gt;
+&lt;div class=&quot;outline-text-7&quot; id=&quot;text-1-2-2-2-2-2&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;创建如下目录。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+[astro@gorgnegre]% tree org-jekyll/
+&lt;/p&gt;
+&lt;p class=&quot;verse&quot;&gt;
+org-jekyll/&lt;br  /&gt;
+├── org/                 用于编辑文件&lt;br  /&gt;
+│   ├── _config.yml      配置文件&lt;br  /&gt;
+│   ├── _drafts/         草稿放到这下面，会被jekyll忽略掉。&lt;br  /&gt;
+│   │   ├── Horse-riding+explore-the-cosmos.org&lt;br  /&gt;
+│   │   └── spend-some-holidays-at-gorgnegre.org&lt;br  /&gt;
+│   ├── files/&lt;br  /&gt;
+│   │   ├── css/&lt;br  /&gt;
+│   │   │   └── screen.css&lt;br  /&gt;
+│   │   └── images/&lt;br  /&gt;
+│   │       └── gorgnegre-logo.png&lt;br  /&gt;
+│   ├── _includes/&lt;br  /&gt;
+│   │   └── header.html&lt;br  /&gt;
+│   ├── index.org&lt;br  /&gt;
+│   ├── _layouts/&lt;br  /&gt;
+│   │   ├── base.html&lt;br  /&gt;
+│   │   └── post.html&lt;br  /&gt;
+│   └── _posts/        把完成的草稿拷贝到这下面&lt;br  /&gt;
+│       └── 2012-07-17-using-emacs-orgmode-to-blog-with-jekyll.org&lt;br  /&gt;
+├── org-jekyll.el&lt;br  /&gt;
+├── README.org&lt;br  /&gt;
+└── rootdir/           orgmode导出html文件和其他文件到这个目录。jekyll根据这下面的文件产生&lt;sub&gt;site目录。&lt;/sub&gt;&lt;br  /&gt;
+&lt;/p&gt;
+
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;编辑org后缀的文件，完成的org文件复制到&lt;sub&gt;post目录下。&lt;/sub&gt;
+&lt;/li&gt;
+&lt;li&gt;对&lt;sub&gt;post目录下的文件进行publish到blog&lt;/sub&gt;/&lt;sub&gt;post目录中。&lt;/sub&gt;
+&lt;/li&gt;
+&lt;li&gt;在 blog 中执行jekyll build。
+&lt;/li&gt;
+&lt;li&gt;github相关动作。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1-3&quot;&gt;GTD&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1-3&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-1-3-0-1&quot; class=&quot;outline-5&quot;&gt;
+&lt;h5 id=&quot;sec-1-3-0-1&quot;&gt;&lt;span class=&quot;done DONE&quot;&gt;DONE&lt;/span&gt; clocking&lt;/h5&gt;
+&lt;div class=&quot;outline-text-5&quot; id=&quot;text-1-3-0-1&quot;&gt;
+&lt;p&gt;
+emacs可以针对任务进行计时。就像这样。
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-3-0-2&quot; class=&quot;outline-5&quot;&gt;
+&lt;h5 id=&quot;sec-1-3-0-2&quot;&gt;&lt;span class=&quot;done DONE&quot;&gt;DONE&lt;/span&gt; MY ORG MODE&lt;/h5&gt;
+&lt;div class=&quot;outline-text-5&quot; id=&quot;text-1-3-0-2&quot;&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-3-0-2-1&quot; class=&quot;outline-6&quot;&gt;
+&lt;h6 id=&quot;sec-1-3-0-2-1&quot;&gt;&lt;span class=&quot;done DONE&quot;&gt;DONE&lt;/span&gt; 把我的生命分类&lt;/h6&gt;
+&lt;div class=&quot;outline-text-6&quot; id=&quot;text-1-3-0-2-1&quot;&gt;
+&lt;p&gt;
+首先用文件、* 进行树状分类，用文件分类时，按照目标而不是自然分类会更为理想。然后用tag、link进行交叉关联
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-3-0-2-2&quot; class=&quot;outline-6&quot;&gt;
+&lt;h6 id=&quot;sec-1-3-0-2-2&quot;&gt;文件分类&lt;/h6&gt;
+&lt;div class=&quot;outline-text-6&quot; id=&quot;text-1-3-0-2-2&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;小企业营销交换
+&lt;/li&gt;
+&lt;li&gt;gym
+&lt;/li&gt;
+&lt;li&gt;ski
+&lt;/li&gt;
+&lt;li&gt;travel
+&lt;/li&gt;
+&lt;li&gt;blogging
+&lt;/li&gt;
+&lt;li&gt;programmer
+&lt;/li&gt;
+&lt;li&gt;新知易
+&lt;/li&gt;
+&lt;li&gt;心理学
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-3-0-2-3&quot; class=&quot;outline-6&quot;&gt;
+&lt;h6 id=&quot;sec-1-3-0-2-3&quot;&gt;tag&lt;/h6&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-3-0-2-4&quot; class=&quot;outline-6&quot;&gt;
+&lt;h6 id=&quot;sec-1-3-0-2-4&quot;&gt;clocking*&lt;/h6&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-4&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1-4&quot;&gt;&lt;span class=&quot;done DONE&quot;&gt;DONE&lt;/span&gt; viper&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1-4&quot;&gt;
+&lt;p&gt;
+viper是emacs下面的vi模式，这样模式对于我这样的vi程序员来说还真是有点舒适:D。因为手指的感觉真好。还有一点就是vi的keybinding不会生疏了，
+在很多场合，vi的keybinding还是比emacs更有适应性和常见。
+&lt;/p&gt;
+
+&lt;p&gt;
+另外viper有专门的帮助文档，经过大概半小时的学习可以入门，此外对于有emacs经验的人来说 * master * 模式是比较舒服的。
+viper好多的，使用起来一点都不爽。
+evil可以试一下。
+最后的结论还是viper和emacs结合起来好用一点，因为viper的功能比较少，所以和emacs冲突的少。
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-1-5&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1-5&quot;&gt;&lt;span class=&quot;done DONE&quot;&gt;DONE&lt;/span&gt; evil&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1-5&quot;&gt;
+&lt;p&gt;
+&amp;#x2014;
+layout: default
+title: 学习emacs笔记
+excerpt: 学习emacs orgmode的笔记
+&amp;#x2014;
+&lt;/p&gt;
+&lt;p&gt;
+evil best practice
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 16 Sep 2015 00:00:00 +0800</pubDate>
+        <link>http://fengruifei.github.io/2015/09/16/EMACS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</link>
+        <guid isPermaLink="true">http://fengruifei.github.io/2015/09/16/EMACS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>evil</title>
