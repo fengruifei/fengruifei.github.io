@@ -22,11 +22,20 @@
         /* org-agenda-current-time */
         color: #eedd82;
       }
+      .org-agenda-date {
+        /* org-agenda-date */
+        color: #6699cc;
+      }
       .org-agenda-date-today {
         /* org-agenda-date-today */
         color: #6699cc;
         font-weight: bold;
         font-style: italic;
+      }
+      .org-agenda-date-weekend {
+        /* org-agenda-date-weekend */
+        color: #6699cc;
+        font-weight: bold;
       }
       .org-agenda-done {
         /* org-agenda-done */
@@ -40,6 +49,10 @@
         /* org-done */
         color: #99cc99;
         font-weight: bold;
+      }
+      .org-scheduled {
+        /* org-scheduled */
+        color: #99cc99;
       }
       .org-scheduled-previously {
         /* org-scheduled-previously */
@@ -77,13 +90,20 @@
   </head>
   <body>
     <pre>
+<span class="org-agenda-date">Monday     28 September 2015 W40</span>
+<span class="org-agenda-done">  personal:   14:18...... Closed:     </span><span class="org-done">DONE</span><span class="org-agenda-done"> &#26032;&#27941;&#26001;&#31481;&#26519;</span>
+<span class="org-agenda-done">  personal:   15:22-15:47 Clocked:   (0:25) </span><span class="org-todo">TODO</span><span class="org-agenda-done"> &#31532;&#20108;&#20010;&#20064;&#24815; &#20197;&#32456;&#20026;&#22987;</span>
+<span class="org-agenda-done">  personal:   15:53-16:21 Clocked:   (0:28) </span><span class="org-todo">TODO</span><span class="org-agenda-done"> &#31532;&#20108;&#20010;&#20064;&#24815; &#20197;&#32456;&#20026;&#22987;</span>
+<span class="org-agenda-done">  personal:   16:22-17:47 Clocked:   (1:25) </span><span class="ATTRLIST-1">NEXT</span><span class="org-agenda-done"> &#31532;&#19977;&#20010;&#20064;&#24815; &#35201;&#20107;&#31532;&#19968;</span>
+<span class="org-scheduled">  personal:   Scheduled:  </span><span class="org-todo">TODO</span><span class="org-scheduled"> &#31532;&#20108;&#20010;&#20064;&#24815; &#20197;&#32456;&#20026;&#22987;</span>
+<span class="org-scheduled">  personal:   Scheduled:  </span><span class="ATTRLIST-1">NEXT</span><span class="org-scheduled"> &#31532;&#19977;&#20010;&#20064;&#24815; &#35201;&#20107;&#31532;&#19968;</span>
+<span class="org-scheduled">  personal:   Scheduled:  </span><span class="ATTRLIST-1">NEXT</span><span class="org-scheduled"> &#23398;&#20064;&#21644;&#30721;&#65292;&#27599;&#22825;15&#20998;&#38047;</span>                        <span class="org-scheduled"><span class="org-tag">:&#21644;&#30721;::</span></span>
 <span class="org-agenda-date-today">Tuesday    29 September 2015</span>
   <span class="org-time-grid">             8:00...... ----------------</span>
 <span class="org-agenda-done">  family:      9:53...... Closed:     </span><span class="org-done">DONE</span><span class="org-agenda-done"> &#26031;&#37324;&#20848;&#21345;</span>                       <span class="org-agenda-done"><span class="org-tag">:&#26031;&#37324;&#20848;&#21345;:</span></span>
   <span class="org-time-grid">            10:00...... ----------------</span>
 <span class="org-agenda-done">  personal:   10:07...... Closed:     </span><span class="org-done">DONE</span><span class="org-agenda-done"> &#25237;&#36164;</span>
-<span class="org-agenda-done">  programmer: 10:20...... Clocked:   (-) </span><span class="ATTRLIST-1">NEXT</span><span class="org-agenda-done"> google calendar</span>           <span class="org-agenda-done"><span class="org-tag">:EMACS::</span></span>
-  <span class="org-agenda-current-time">            10:40...... now - - - - - - - - - - - - - - - - - - - - - - - - -</span>
+  <span class="org-agenda-current-time">            10:51...... now - - - - - - - - - - - - - - - - - - - - - - - - -</span>
   <span class="org-time-grid">            12:00...... ----------------</span>
   <span class="org-time-grid">            14:00...... ----------------</span>
   <span class="org-time-grid">            16:00...... ----------------</span>
@@ -97,7 +117,21 @@
 <span class="org-scheduled-today">  personal:   Scheduled:  </span><span class="ATTRLIST-1">NEXT</span><span class="org-scheduled-today"> &#23398;&#20064;&#21644;&#30721;&#65292;&#27599;&#22825;15&#20998;&#38047;</span>                        <span class="org-scheduled-today"><span class="org-tag">:&#21644;&#30721;::</span></span>
 <span class="org-scheduled-today">  personal:   Scheduled:  PC&#32908;&#32451;&#20064;</span>
 <span class="org-scheduled-today">  personal:   Scheduled:  </span><span class="ATTRLIST-1">NEXT</span><span class="org-scheduled-today"> &#22269;&#24198;&#23433;&#25490;</span>
-<span class="org-scheduled-today">  programmer: Scheduled:  </span><span class="ATTRLIST-1">NEXT</span><span class="org-scheduled-today"> google calendar</span>                          <span class="org-scheduled-today"><span class="org-tag">:EMACS::</span></span>
+<span class="org-agenda-date">Wednesday  30 September 2015</span>
+<span class="org-scheduled">  personal:   Scheduled:  </span><span class="ATTRLIST-1">NEXT</span><span class="org-scheduled"> &#23398;&#20064;&#21644;&#30721;&#65292;&#27599;&#22825;15&#20998;&#38047;</span>                        <span class="org-scheduled"><span class="org-tag">:&#21644;&#30721;::</span></span>
+<span class="org-scheduled">  personal:   Scheduled:  PC&#32908;&#32451;&#20064;</span>
+<span class="org-agenda-date">Thursday    1 October 2015</span>
+<span class="org-scheduled">  personal:   Scheduled:  </span><span class="ATTRLIST-1">NEXT</span><span class="org-scheduled"> &#23398;&#20064;&#21644;&#30721;&#65292;&#27599;&#22825;15&#20998;&#38047;</span>                        <span class="org-scheduled"><span class="org-tag">:&#21644;&#30721;::</span></span>
+<span class="org-scheduled">  personal:   Scheduled:  PC&#32908;&#32451;&#20064;</span>
+<span class="org-agenda-date">Friday      2 October 2015</span>
+<span class="org-scheduled">  personal:   Scheduled:  </span><span class="ATTRLIST-1">NEXT</span><span class="org-scheduled"> &#23398;&#20064;&#21644;&#30721;&#65292;&#27599;&#22825;15&#20998;&#38047;</span>                        <span class="org-scheduled"><span class="org-tag">:&#21644;&#30721;::</span></span>
+<span class="org-scheduled">  personal:   Scheduled:  PC&#32908;&#32451;&#20064;</span>
+<span class="org-agenda-date-weekend">Saturday    3 October 2015</span>
+<span class="org-scheduled">  personal:   Scheduled:  </span><span class="ATTRLIST-1">NEXT</span><span class="org-scheduled"> &#23398;&#20064;&#21644;&#30721;&#65292;&#27599;&#22825;15&#20998;&#38047;</span>                        <span class="org-scheduled"><span class="org-tag">:&#21644;&#30721;::</span></span>
+<span class="org-scheduled">  personal:   Scheduled:  PC&#32908;&#32451;&#20064;</span>
+<span class="org-agenda-date-weekend">Sunday      4 October 2015</span>
+<span class="org-scheduled">  personal:   Scheduled:  </span><span class="ATTRLIST-1">NEXT</span><span class="org-scheduled"> &#23398;&#20064;&#21644;&#30721;&#65292;&#27599;&#22825;15&#20998;&#38047;</span>                        <span class="org-scheduled"><span class="org-tag">:&#21644;&#30721;::</span></span>
+<span class="org-scheduled">  personal:   Scheduled:  PC&#32908;&#32451;&#20064;</span>
 <span class="org-agenda-structure">Inbox</span>
 <span class="org-agenda-structure">Stuck Projects</span>
 <span class="default">  bussiness:  </span><span class="ATTRLIST">PROJECT</span><span class="default"> &#26032;&#30693;&#26131;&#24494;&#20449;&#20844;&#20247;&#21495;</span>                                   <span class="default"><span class="org-tag">:&#26032;&#30693;&#26131;&#24494;&#20449;:</span></span>
@@ -123,7 +157,6 @@
 <span class="default">  programmer: </span><span class="ATTRLIST-1">NEXT</span><span class="default"> &#31532;&#19971;&#31456; &#29992;&#25143;&#27880;&#20876;</span>                                       <span class="default"><span class="org-tag">:ruby::</span></span>
 <span class="default">  programmer: </span><span class="ATTRLIST-1">NEXT</span><span class="default"> &#24494;&#20449;API&#23398;&#20064;</span>                                           <span class="default"><span class="org-tag">:&#24494;&#20449;&#24320;&#21457;::</span></span>
 <span class="default">  programmer: </span><span class="ATTRLIST-1">NEXT</span><span class="default"> Document structure</span>                                   <span class="default"><span class="org-tag">:EMACS::</span></span>
-<span class="default">  programmer: </span><span class="ATTRLIST-1">NEXT</span><span class="default"> google calendar</span>                                      <span class="default"><span class="org-tag">:EMACS::</span></span>
 <span class="org-agenda-structure">Projects</span>
 <span class="default">  blogging:   </span><span class="ATTRLIST">PROJECT</span><span class="default"> &#21019;&#19994;&#21644;&#20844;&#21496;&#30340;&#29615;&#22659;&#27604;&#36739;</span>                     <span class="default"><span class="org-tag">:blog:&#21019;&#19994;&#21644;&#20844;&#21496;&#30340;&#29615;&#22659;&#27604;&#36739;:</span></span>
 <span class="default">  blogging:   </span><span class="ATTRLIST">PROJECT</span><span class="default"> &#36719;&#20214;&#21644;&#29983;&#27963;&#31995;&#21015;</span>                              <span class="default"><span class="org-tag">:blog:&#36719;&#20214;&#21644;&#29983;&#27963;&#31995;&#21015;:</span></span>
